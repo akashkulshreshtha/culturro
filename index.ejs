@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        student management 
+    </title>
+    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js" type="text/javascript"></script>
+    <script src="angularApp.js" type="text/javascript"></script>
+</head>
+<body ng-app="myApp"> 
+    <center><h1>Student Management System</h1></center>
+    <hr>
+    <div>
+        <a href="#"> Add Student</a>
+        <a href="#"> update/delete Student</a>
+        <a href="#"> View Student</a>
+    </div>
+    <br>
+    <div ng-controller="Students">
+        <form enctype="multipart/form-data" action="/" method="POST">
+          Name:
+            <input type="text" ng-model="name">
+          <br>
+          <br> 
+          Dob:
+            <input type="date" ng-model="dob">
+          <br>
+          <br>
+          Gender:
+            <input type="text" ng-model="gender">
+          <br>
+          <br>
+            <input type="submit" value="Submit" ng-click="submit()">
+        </form>
+    </div>
+  <!-- <div ng-controller="myCtrl">
+    <form>
+      Author:
+      <input type="text" ng-model="author">
+      <br>
+      <br> Title:
+      <input type="text" ng-model="title">
+      <br>
+      <br> Body:
+      <input type="author" ng-model="body">
+      <br>
+      <br>
+      <input type="submit" value="Submit" ng-click="submit()">
+    </form>
+  </div> -->
+</body>

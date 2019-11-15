@@ -1,0 +1,20 @@
+{
+  "name": "cultrro",
+  "version": "1.0.0",
+  "description": "cultrro assignment\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dur",
+  "main": "app.js\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b \u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001bapp.js)\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D(\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[Dapp.js)",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.2",
+    "express": "^4.17.1",
+    "neode": "^0.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "akash kulshreshtha",
+  "license": "ISC"
+}
